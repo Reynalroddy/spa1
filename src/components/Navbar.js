@@ -30,7 +30,7 @@ const Navbar = () => {
 
         <ul className="nav__menu">
           {links.map((link) => {
-            const { id, url, text, icon } = link;
+            const { id, url, text } = link;
             return (
               <Link to={url} key={id} className="links">
                 <li>{text}</li>
