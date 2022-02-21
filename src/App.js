@@ -1,8 +1,8 @@
-import { useState, useEffect } from "react";
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Navbar } from "./components";
 
-import { Home, About } from "./pages";
+import { Home } from "./pages";
 
 const App = () => {
   return (

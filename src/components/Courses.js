@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import styled from "styled-components";
 import img1 from "../assets/course-1.jpg";
 import img2 from "../assets/course-2.jpg";
 import img3 from "../assets/course-3.jpg";
 import { Link } from "react-router-dom";
-import Accordion from "./Accordion";
+
 const Courses = () => {
   return (
     <Wrapper>

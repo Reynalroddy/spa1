@@ -1,10 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
-import { Container, Row } from "react-bootstrap";
-import logo from "../assets/logo.png";
-import flag from "../assets/flag.png";
-import { BsToggleOn, BsToggleOff } from "react-icons/bs";
-import { FiLock } from "react-icons/fi";
+
 import { links } from "../data";
 import { Link } from "react-router-dom";
 import { BiMenuAltRight, BiX } from "react-icons/bi";
