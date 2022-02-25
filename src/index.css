@@ -166,6 +166,10 @@ ul {
 }
 /* buttons */
 
+.prod-img {
+  width: 4rem;
+  height: 4rem;
+}
 .my-btn {
   cursor: pointer;
   color: var(--black);
